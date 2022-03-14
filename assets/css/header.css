@@ -1,0 +1,60 @@
+#layout-header nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+  background: #12857f;
+  color: white;
+  box-shadow: 1px 1px 1px 1px lightgrey;
+}
+
+#layout-header nav .mini-logo p {
+  margin: 5px;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+#layout-header nav .auth-links ul {
+  margin: 5% 5px;
+  display: flex;
+  list-style: none;
+}
+
+#layout-header nav .auth-links ul li {
+  margin-right: 10px;
+}
+
+#layout-header nav a {
+  text-decoration: none;
+  color: #a9eeea;
+}
+
+#logo{
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+#logo h4 span{
+    color: #54e0d9;
+}
+
+/* styling the heading section */
+#head {
+    background-image: url("../images/theme2.jpg");
+    background-size: contain;
+    height: 40vh;
+
+}
+
+#heading {
+    text-align: center;
+    background: -webkit-linear-gradient(90deg, #006600, #00cc99, #009999);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#heading h1 {
+    font-size: 4rem;
+    padding-top: 1rem;
+
+}
