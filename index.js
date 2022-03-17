@@ -1,6 +1,7 @@
 const express = require('express');
 const cookieParser = require('cookie-parser');
 const expressLayouts = require('express-ejs-layouts');
+const serverless = require('serverless-http');
 const app = express();
 const port = process.env.PORT || 5000;
 
@@ -39,4 +40,6 @@ app.listen(port, function(err){
     }
 
     console.log(`Server is running on port: ${port}`);
-})
+});
+
+module.exports.handler = serverless(app);

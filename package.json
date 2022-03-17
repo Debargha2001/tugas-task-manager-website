@@ -17,7 +17,10 @@
     "express": "^4.17.2",
     "express-ejs-layouts": "^2.5.1",
     "express-session": "^1.17.2",
+    "heroku": "^7.59.4",
     "mongoose": "^6.1.5",
-    "nodemon": "^2.0.15"
+    "netlify-lambda": "^2.0.15",
+    "nodemon": "^2.0.15",
+    "serverless-http": "^2.7.0"
   }
 }
